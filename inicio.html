@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--Inicia Mobile Friendly PWA-->
+    <meta name="theme-color" content="#b575bc">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-traslucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!--Termina Mobile Friendly PWA-->
+    <title>Inicio - Ciudad Unida</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!--Manifest json-->
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!--Incluimos los estilos de la aplicación-->
+    <!--Carga de archivos de tipo de fuente-->
+    <link rel="stylesheet" href="assets/css/Ancizar%20Sans.css">
+    <link rel="stylesheet" href="assets/css/Ancizar%20Serif.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency-1.css">
+    <link rel="stylesheet" href="assets/css/Fixed-navbar-starting-with-transparency.css">
+    <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Map-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
+    <!--Codigo estilo de mapa de mapbox-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <!--Codigo traductor-->
+    <link rel="alternate" hreflang="es" href="https://ciudadunida.com">
+    <link rel="alternate" hreflang="en" href="https://en.ciudadunida.com">
+    <link rel="alternate" hreflang="br" href="https://br.ciudadunida.com">
+    <link rel="alternate" hreflang="de" href="https://de.ciudadunida.com">
+    <link rel="alternate" hreflang="it" href="https://it.ciudadunida.com">
+    <link rel="alternate" hreflang="fr" href="https://fr.ciudadunida.com">
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script>
+        Weglot.initialize({
+            api_key: 'wg_bf8d481598b7336961a24c5b88afc89f5'
+        });
+    </script>
+
+    <!-- Termina codigo traductor -->
+
+
+    <!--Inicia: web player para animaciones Lottie Files-->
+    <!--   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+-->
+    <!-- Termina Lottie-->
+    <!-- Inicia: Chat Ciudad Unida-->
+    <script>var LHC_API = LHC_API || {};
+        LHC_API.args = { mode: 'widget', lhc_base_url: '//chat.ciudadunida.com/', wheight: 450, wwidth: 350, pheight: 520, pwidth: 500, domain: 'ciudadunida.com', leaveamessage: true, check_messages: false, lang: 'esp/' };
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.setAttribute('crossorigin', 'anonymous'); po.async = true;
+            var date = new Date(); po.src = '//chat.ciudadunida.com/design/defaulttheme/js/widgetv2/index.js?' + ("" + date.getFullYear() + date.getMonth() + date.getDate());
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+
+    <!--Termina: Chat Ciudad Unida-->
+
+
+</head>
+
+<body>
+    <!--Chat de Typeform-->
+    <!-- <div data-tf-chat data-tf-custom-icon="https://images.typeform.com/images/ZdEuji6FYxJV" data-tf-tooltip="👋 "
+            data-tf-popover="lvS19iER" data-tf-button-color="#EAD7F7"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script> -->
+    <!--Termina chat Typerform-->
+
+
+    <!-- Start: Navigation Clean -->
+
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container" style="margin-left: -1em;margin-top: -1.7em;"><a class="navbar-brand" href="/index.html"
+                style="width: 94.9938px;"><img
+                    class="img-fluid d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"
+                    style="width: 61px;height: 61px;max-height: 100%;" src="assets/img/logo.png"></a><button
+                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse d-xl-flex justify-content-xl-end align-items-xl-start" id="navcol-1"
+                style="font-family: 'Ancizar Sans';font-size: 18px;font-weight: bold;">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/mapeo.html">MAPEO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/recursos.html">RECURSOS</a></li>
+                    <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" aria-expanded="false"
+                            data-toggle="dropdown" href="#"></a>
+                        <div class="dropdown-menu show"><a class="dropdown-item" href="/registro.html">REGISTRO</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navegacion anterior / Para
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container" style="margin-left: -1em;margin-top: -1.7em;"><a class="navbar-brand" href="#"
+                style="width: 94.9938px;"><img
+                    class="img-fluid d-xl-flex align-items-center justify-content-xl-center align-items-xl-center"
+                    style="width: 61px;height: 61px;max-height: 100%;" src="assets/img/logo.png"></a><button
+                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse d-xl-flex justify-content-xl-end align-items-xl-start" id="navcol-1"
+                style="font-family: 'Ancizar Sans';font-size: 18px;font-weight: bold;">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index-2.html">MAPEO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index-2-1.html">RECURSOS</a></li>
+                    <li class="nav-item dropdown show"><a class="dropdown-toggle nav-link" aria-expanded="true"
+                            data-toggle="dropdown" href="registro.html"></a>
+                        <div class="dropdown-menu show"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>End: Navigation Clean -->
+
+
+    <!-- Empieza: Contenedor lateral izquierdo -->
+    <div class="container" style="margin-top: -23px;margin-left: 0.5em;margin-top: -2em;">
+        <div class="row">
+            <div class="col-md-8 col-xl-8 offset-xl-0">
+                <h1 style="font-family: 'Ancizar Sans';font-weight: bold;">CIUDAD UNIDA</h1><em class="text-break"
+                    style="font-size: 23px;text-align: left;font-family: 'Ancizar Sans';font-style: italic;">GENERANDO
+                    REDES DE TRABAJO&nbsp;<br>&nbsp;INFORMAL EN BOGOTA</em>
+                <div>
+                    <div class="row">
+                        <div class="col-lg-4 col-xl-12" style="max-width: 47.3333%;margin-top: 2em;"><iframe
+                                class="d-flex float-none d-xl-flex flex-fill justify-content-center align-items-center align-self-stretch justify-content-xl-center align-items-xl-center"
+                                allowfullscreen="" frameborder="0"
+                                src="https://www.youtube.com/embed/g-XAsyiH1GY?modestbranding=1?fs=0&modestbranding=1&playsinline=1&rel=0&showcontrols=0"
+                                width="25em" height="315"
+                                style="font-family: 'Ancizar Sans';height: 225.992px;width: 349.994px;"></iframe></div>
+                        <div class="col-xl-6 ml-auto">
+                            <p class="lead d-block"
+                                style="font-family: 'Ancizar Sans';font-size: 14px;font-style: italic;margin-top: 2em;">
+
+                                A inicios del 2020, el virus SARS-Cov 2 se empezó a propagar por todo el mundo,
+                                convirtiéndose en una pandemia y
+                                generando una alerta de salud a nivel global. Con su llegada a Colombia a finales de
+                                febrero, el gobierno nacional
+                                decide implementar medidas que buscan preservar la salud de los colombianos, siendo la
+                                cuarentena la más importante.
+                                Esta medida consiste en limitar la movilidad de las personas en la ciudad, procurando
+                                que cada quien se quede en su
+                                lugar de residencia, provocando a su vez, el encierro de muchas personas a costa de su
+                                economía.</p>
+                            <p class="lead" style="font-family: 'Ancizar Sans';font-size: 14px;font-style: italic;">
+                                Los vendedores registran su punto de comercio o de servicios, ya sea usando la
+                                plataforma o gracias a la labor de los
+                                voluntarios que recolectan los datos de sus barrios. Luego de verificarse la veracidad
+                                de la información estos puntos se
+                                registran en el mapa para que los usuarios puedan acceder fácilmente.
+                            </p>
+                        </div>
+                        <div class="col-xl-12"><img
+                                class="img-fluid d-flex d-xl-flex flex-fill m-auto justify-content-xl-center align-items-xl-center"
+                                src="assets/img/página-web.png" style="padding-top: 1.2em;padding-bottom: 2em;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="margin-top: -10em; margin-right: 0em;">
+                <!-- Start: Contenedor lateral derecho -->
+
+                <div class="container">
+                    <div class="embed-responsive embed-responsive-4by3">
+
+                        <div id='map' style='width: 100%; height: 600px;'></div>
+                        <script>
+                            mapboxgl.accessToken = 'pk.eyJ1IjoiY2l1ZGFkdW5pZGEiLCJhIjoiY2ttZ2VqNGRuM2RhODJwdzB5b3ptcjR3YiJ9.xLEGpUiHY4OgYth0szZVkA';
+                            var map = new mapboxgl.Map({
+                                container: 'map', // container ID
+                                style: 'mapbox://styles/ciudadunida/ckqvtk29s0xwy17mtkb227a5l', // style URL
+                                center: [-74.079664, 4.590848], // starting position [lng, lat]
+                                zoom: 9 // starting zoom
+                            });
+                        </script>
+                    </div>
+                    <span style="font-size: 0.8em;font-family: 'Ancizar Sans';letter-spacing: 2px;">BARRIOS
+                        IMPACTADOS</span>
+                </div>
+
+            </div>
+            <div class="col">
+                <!-- Empieza: barra de pie de pagina / Contacto ♣ -->
+                <!-- <footer class="footer footer-transparent"
+                    style="background: rgb(255, 255, 255);padding-top: 7em;border-color: #ffffff;"> -->
+                <!-- Start: Footer 2 -->
+                <div class="footer footer-transparent"
+                    style="background: rgb(255,255,255);padding: 14px 0px 24px;padding-top: 10px;">
+                    <div class="container">
+                        <div class="row" style="height: 67.239px;margin-top: -45px;">
+                            <!-- Start: Text -->
+                            <div class="col-md-6 col-lg-4 col-xl-5 text-center text-md-left pb-4">
+                                <p class="my-3">©Ciudad Unida - Todos los derechos reservados. <BR>Con el apoyo de la
+                                    Division de Extensión de la sede Bogotá.&nbsp; &nbsp; &nbsp; Universidad Nacional de
+                                    Colombia. 2021.
+                                <div style="text-align:center;"> <a class="typeform-share link"
+                                        href="https://form.typeform.com/to/RJgMz687?typeform-medium=embed-snippet"
+                                        data-mode="popup"
+                                        style="color:#82783c;text-decoration:underline;font-size:16px;" data-size="100"
+                                        data-hide-footer="true" target="_blank">Términos y
+                                        condiciones. </a> </div>
+                                <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+                            </div>
+                            </p>
+
+                            <!--End: Text -->
+                            <!-- Start: Newsletter + social icons -->
+                            <div class="col-lg-4 col-xl-5 text-center text-lg-right pb-4" style="padding-top: 1em;">
+                                <p class="mb-2">Contáctanos
+                                    por:<br><strong>ciudadunida_bog@unal.edu.co</strong><br>(+57)<strong> 315 688
+                                        3430</strong> <a href="//chat.ciudadunida.com/esp/chat/start"><img
+                                            src="https://chat.ciudadunida.com/site_admin/restapi/onlineimage?&online=En%20linea&offline=No%20activo&w=200"
+                                            alt="" /></a></p>
+                            </div><!-- End: Newsletter + social icons -->
+                            <div class="col-xl-2 text-right d-flex align-self-center">
+                                <!-- Start: Socials -->
+                                <div><a class="text-dark mx-2 mx-lg-0 ml-lg-3"
+                                        href="https://www.instagram.com/ciudadunida/"><i
+                                            class="fa fa-instagram fa-2x"></i></a><a
+                                        class="text-dark mx-2 mx-lg-0 ml-lg-3"
+                                        href="https://www.facebook.com/ciudadunida.bog">
+                                        <i class="fa fa-facebook-square fa-2x"></i>
+                                    </a></div><!-- End: Socials-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End: Footer 2 -->
+                </footer>
+            </div>
+        </div>
+    </div><!-- End: Sidebar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/Animated-Type-Heading.js"></script>
+    <script src="assets/js/Fixed-navbar-starting-with-transparency.js"></script>
+</body>
+
+</html>
